@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/style.css" />
+      <script src="js/script.js"></script>
+  </head>
+  <body>
+    <form class="box" onsubmit="return check()" action="login.html" method="post">
+            <h1>sign up</h1>
+            <hr>
+            <input onkeypress="usrCheck()" id="usr" type="text" placeholder="Full Name">
+            <input onkeypress="mailCheck()" id="mail" type="email" placeholder="Email">
+            <input onkeypress="passCheck()" id="pass" type="password" placeholder="Password">
+            <input onkeypress="orgCheck()" id="org" type="text" placeholder="Organization">
+            <input onkeypress="addrCheck()" id="addr" type="text" placeholder="Address">
+            <hr>
+            <div class="bottomdiv">
+                <input id="cb" type="checkbox">
+                <p>By clicking Register, you agree on our
+                <a href="#">terms and condition</a>
+                </p>
+            </div>
+            <button id="btn" type="submit">Submit</button>
+        </form> 
+  </body>
+</html>
